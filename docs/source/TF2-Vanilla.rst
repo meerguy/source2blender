@@ -160,7 +160,7 @@ Finishing Touches
 * Go to :guilabel:`Material Preview` mode to confirm that all materials are actually fully functional before you do anything else.
 * Use Eevee if you want a true TF2 look. Cycles will get you very different results.
 * There's unfortunately a limit of Eevee which there's no way around. It can only have 128 active lights at once, while a lot of maps in TF2 end up having significantly more than that. Unfortunately the only way around this is to use Cycles, which doesn't have a light limit, but another alternative is to maintain the majority of the look by turning off every light except the one which starts with the name ``light_environment``. This is the 'Sun' light and is responsible for nearly all outdoor shadows present on the map.
-* If you want more accurate TF2 colors, go to Color Management, and set the Color Profile from :guilabel:`Filmic` to :guilabel:`Standard`.
+* If you want more accurate TF2 colors, go to Color Management, set the Color Profile from :guilabel:`Filmic` to :guilabel:`Standard` and set the Saturation to Medium High Saturation.
 
 .. note::
 
